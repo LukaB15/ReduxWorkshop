@@ -16,4 +16,9 @@ npm install
 ```terminal
 npm install @reduxjs/toolkit react-redux
 ```
+5.
+```terminal
+npm start
+```
+
 
