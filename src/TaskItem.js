@@ -1,3 +1,4 @@
+import "./styles.css";
 const TaskItem = (props) => {
   const { task, toggleTask, deleteTask } = props;
 
@@ -9,7 +10,7 @@ const TaskItem = (props) => {
           checked={task.done}
           onChange={() => toggleTask(task.id)}
         />
-        {task.text}
+       {task.text}
 
         <span
           onClick={() => deleteTask(task.id)}
